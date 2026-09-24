@@ -1,6 +1,6 @@
 // アプリ本体(HTML/CSS/JS/アイコン)を更新したら VERSION を上げる。
 // songs.json は常にネットワーク優先なので、曲を追加しただけなら更新不要。
-const VERSION = 'v3';
+const VERSION = 'v4';
 const CACHE = `karaoke-tools-${VERSION}`;
 const SONGS_TIMEOUT_MS = 3000;
 
@@ -19,7 +19,9 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(CACHE)
-      .then((cache) => cache.addAll(ASSETS))
+      // GitHub Pages は max-age=600 を返すため、そのままだとHTTPキャッシュに残った
+      // 古いファイルをキャッシュしてしまう。必ずネットワークから取り直す。
+      .then((cache) => cache.addAll(ASSETS.map((url) => new Request(url, { cache: 'reload' }))))
       .then(() => self.skipWaiting())
   );
 });
@@ -48,13 +50,11 @@ async function networkFirst(request) {
 }
 
 async function cacheFirst(request) {
-  const cached = await caches.match(request);
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response.ok) {
-    const cache = await caches.open(CACHE);
-    cache.put(request, response.clone());
-  }
+  if (response.ok) cache.put(request, response.clone());
   return response;
 }
 
