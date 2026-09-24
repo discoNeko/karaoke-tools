@@ -1,0 +1,11 @@
+{
+  "name": "karaoke-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "カラオケで歌いたい曲・歌える曲を管理する静的Webアプリ",
+  "scripts": {
+    "validate": "node scripts/validate-songs.js",
+    "start": "npx --yes serve docs --listen 8080"
+  }
+}

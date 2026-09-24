@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>カラオケ曲リスト</title>
+<meta name="description" content="歌いたい曲・歌える曲を検索する個人用リスト">
+<meta name="theme-color" content="#101014">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="カラオケ">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="header">
+  <div class="search-box">
+    <span class="search-icon" aria-hidden="true">🔍</span>
+    <input
+      id="search"
+      class="search-input"
+      type="search"
+      placeholder="曲名・歌手名で検索"
+      aria-label="曲名・歌手名で検索"
+      autocomplete="off"
+      autocapitalize="off"
+      autocorrect="off"
+      spellcheck="false"
+      enterkeyhint="search">
+  </div>
+
+  <div class="filters" id="filters" role="group" aria-label="ステータスで絞り込み">
+    <button type="button" class="chip is-active" data-status="all" aria-pressed="true">全部</button>
+    <button type="button" class="chip" data-status="singable" aria-pressed="false">歌える</button>
+    <button type="button" class="chip" data-status="practicing" aria-pressed="false">練習中</button>
+    <button type="button" class="chip" data-status="want" aria-pressed="false">歌いたい</button>
+  </div>
+
+  <div class="toolbar">
+    <select id="sort" class="sort-select" aria-label="並び順">
+      <option value="newest">登録が新しい順</option>
+      <option value="oldest">登録が古い順</option>
+      <option value="artist">歌手名順</option>
+      <option value="title">曲名順</option>
+    </select>
+    <span id="count" class="count" aria-live="polite"></span>
+  </div>
+</header>
+
+<main id="results" class="results"></main>
+
+<script src="./app.js"></script>
+</body>
+</html>
