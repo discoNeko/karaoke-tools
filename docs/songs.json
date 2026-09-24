@@ -26,7 +26,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=oidKy7khp8o",
     "registeredAt": "2026-09-24T22:11:11+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": ""
   },
   {
@@ -116,6 +116,556 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=-vNiPyimaLQ",
     "registeredAt": "2026-09-24T22:11:11+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_bTHx0n1nMbs",
+    "title": "裸になって",
+    "artists": ["大原櫻子"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bTHx0n1nMbs",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_a8dgNdJVluc",
+    "title": "怪獣",
+    "artists": ["サカナクション"],
+    "tieUp": "チ。 ―地球の運動について― OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=a8dgNdJVluc",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_t75qlQPXJGw",
+    "title": "千鳥",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=t75qlQPXJGw",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_UsjsYMo3O1Q",
+    "title": "ブレインロット",
+    "artists": ["東京真中", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UsjsYMo3O1Q",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_V4elF7---KQ",
+    "title": "アンタに言ってんの！！！",
+    "artists": ["ぴーなた", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=V4elF7---KQ",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_M40MIxGK3is",
+    "title": "求＆影(Q&A)",
+    "artists": ["ぴーなた", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=M40MIxGK3is",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_6fMCnKhS1Jw",
+    "title": "花筏",
+    "artists": ["Orangestar", "夏背"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6fMCnKhS1Jw",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_LxVv4QneUuU",
+    "title": "フィクションです。",
+    "artists": ["Chenomio", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LxVv4QneUuU",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ofPBu1stIxc",
+    "title": "RUSSIAN ROULETTE",
+    "artists": ["Staircatte", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ofPBu1stIxc",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_HhEJsD-ZOJU",
+    "title": "ラベンダー",
+    "artists": ["MIMI", "saewool"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=HhEJsD-ZOJU",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_R401j1QAvEg",
+    "title": "スプリットダンス",
+    "artists": ["えいぷ", "初音ミク", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=R401j1QAvEg",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ekr2nIex040",
+    "title": "APT.",
+    "artists": ["ROSÉ", "Bruno Mars"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ekr2nIex040",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_OHAjc-ayhus",
+    "title": "あぶく",
+    "artists": ["ヨルシカ"],
+    "tieUp": "LIAR GAME OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OHAjc-ayhus",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_GMPjNA_fCj4",
+    "title": "アウトサイダー",
+    "artists": ["Eve"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GMPjNA_fCj4",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_67savzAM2xs",
+    "title": "Revive",
+    "artists": ["ClariS"],
+    "tieUp": "勇者のクズ 第2クールOP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=67savzAM2xs",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ekf4l6z7Ctc",
+    "title": "白亜の夢でつかまえて",
+    "artists": ["Eight"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ekf4l6z7Ctc",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_83I2Q3avK4M",
+    "title": "星座づくり",
+    "artists": ["GOOD ON THE REEL"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=83I2Q3avK4M",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_hrBjKBPNi1c",
+    "title": "聖人君子でありたい",
+    "artists": ["しゃいと", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hrBjKBPNi1c",
+    "registeredAt": "2026-02-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "重音テトSV"
+  },
+  {
+    "id": "yt_zMiZ_w2SgZo",
+    "title": "水族館で会いましょう",
+    "artists": ["佐藤乃子", "葛駄夜音"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zMiZ_w2SgZo",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Lm46uVgr1cQ",
+    "title": "個性になっちゃった；；",
+    "artists": ["Swashi"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Lm46uVgr1cQ",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_B6vKLsh09Qw",
+    "title": "匙ノ咒",
+    "artists": ["r-906", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=B6vKLsh09Qw",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_q_mvEsO_yiM",
+    "title": "memeしい",
+    "artists": ["青栗鼠", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=q_mvEsO_yiM",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_z9mTsLgY8C4",
+    "title": "マーブライズ",
+    "artists": ["いえぬ", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=z9mTsLgY8C4",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_v4kWR_REDEU",
+    "title": "分かっちゃいないね",
+    "artists": ["monet", "花隈千冬"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=v4kWR_REDEU",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_KlBrgC6pkeY",
+    "title": "かなた",
+    "artists": ["A"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KlBrgC6pkeY",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_pkMBduvJJdQ",
+    "title": "ラストルック",
+    "artists": ["須田景凪"],
+    "tieUp": "暗殺教室 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pkMBduvJJdQ",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Yn-Mo8mASdA",
+    "title": "忘れものセンターにまたね！",
+    "artists": ["いのうつはSA", "ついなちゃん"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Yn-Mo8mASdA",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_TC80uw4HgCw",
+    "title": "マジック・メイド",
+    "artists": ["MIMI", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TC80uw4HgCw",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_NLIGDjKBLY0",
+    "title": "革命道中",
+    "artists": ["アイナ・ジ・エンド"],
+    "tieUp": "ダンダダン 第2期OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NLIGDjKBLY0",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Q047IJkav4w",
+    "title": "Paradigm Box",
+    "artists": ["澤城千春", "武内駿輔"],
+    "tieUp": "Caligula -カリギュラ- OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q047IJkav4w",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "ファン制作のAMV動画"
+  },
+  {
+    "id": "yt_YCoauaN_CMI",
+    "title": "三日月ステップ",
+    "artists": ["r-906", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YCoauaN_CMI",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Wlmp9HvxXVU",
+    "title": "色欲",
+    "artists": ["Dannie May"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Wlmp9HvxXVU",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_5hgSET4bpbk",
+    "title": "アンコールダンス",
+    "artists": ["MIMI", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5hgSET4bpbk",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_FZshEBwrVrA",
+    "title": "脳裏のマキナ",
+    "artists": ["Folicca", "可不"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FZshEBwrVrA",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_ioW9iGDpQyw",
+    "title": "妄想哀歌",
+    "artists": ["MIMI", "初音ミク", "可不"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ioW9iGDpQyw",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_xQYp4-Ett6A",
+    "title": "愛し愛",
+    "artists": ["MIMI", "初音ミク", "可不"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xQYp4-Ett6A",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_KfZR9jVP6tw",
+    "title": "美少女無罪♡パイレーツ",
+    "artists": ["宝鐘マリン"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KfZR9jVP6tw",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_5uaHMmcReI0",
+    "title": "うい麦畑でつかまえて",
+    "artists": ["しぐれうい", "ナナホシ管弦楽団"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5uaHMmcReI0",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_m-bvW4pKT68",
+    "title": "サイエンス",
+    "artists": ["MIMI", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=m-bvW4pKT68",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Soy4jGPHr3g",
+    "title": "テトリス",
+    "artists": ["柊マグネタイト", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Soy4jGPHr3g",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_K_ctPFhbRUo",
+    "title": "人として軸がぶれている",
+    "artists": ["大槻ケンヂ"],
+    "tieUp": "さよなら絶望先生 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=K_ctPFhbRUo",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_rpzHb5clWkE",
+    "title": "電車かもしれない",
+    "artists": ["たま"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rpzHb5clWkE",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_BJushRLnajs",
+    "title": "melt into the dark",
+    "artists": ["トゲナシトゲアリ"],
+    "tieUp": "ガールズバンドクライ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BJushRLnajs",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_R-DFX8WdCvU",
+    "title": "鉄風、鋭くなって",
+    "artists": ["NUMBER GIRL"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=R-DFX8WdCvU",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Mtd24QIBJ5Y",
+    "title": "ABC",
+    "artists": ["Polyphia", "Sophia Black"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Mtd24QIBJ5Y",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_isZE_g2wMrc",
+    "title": "壊れたコンパス",
+    "artists": ["マスイ", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=isZE_g2wMrc",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_XogSflwXgpw",
+    "title": "アスノヨゾラ哨戒班",
+    "artists": ["Orangestar", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XogSflwXgpw",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_2mUC91bXt60",
+    "title": "がらくた",
+    "artists": ["米津玄師"],
+    "tieUp": "ラストマイル 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2mUC91bXt60",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_LmZD-TU96q4",
+    "title": "IRIS OUT",
+    "artists": ["米津玄師"],
+    "tieUp": "チェンソーマン レゼ篇 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LmZD-TU96q4",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_gwyrPARCd8g",
+    "title": "共感覚おばけ",
+    "artists": ["ササノマリイ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gwyrPARCd8g",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_3jUCl_11Ofk",
+    "title": "アクラシア",
+    "artists": ["青栗鼠", "可不"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3jUCl_11Ofk",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_wYmNq-2bLsI",
+    "title": "黎明を穿つ",
+    "artists": ["トゲナシトゲアリ"],
+    "tieUp": "ガールズバンドクライ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wYmNq-2bLsI",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_zdMhUtmCBus",
+    "title": "絶対王政♡みゃおみゃお",
+    "artists": ["奏みみ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zdMhUtmCBus",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ejv9ff3hcX0",
+    "title": "metaphor",
+    "artists": ["少女病"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ejv9ff3hcX0",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_ZeCd2qJ5TJE",
+    "title": "SEM NADA",
+    "artists": ["Ogryzek"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZeCd2qJ5TJE",
+    "registeredAt": "2025-09-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
   }
