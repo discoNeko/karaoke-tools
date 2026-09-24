@@ -55,14 +55,19 @@ function createDetailRow(label, value) {
 }
 
 function createCard(song) {
-  const card = document.createElement('details');
+  const card = document.createElement('article');
   card.className = 'card';
 
-  const head = document.createElement('summary');
+  const head = document.createElement('div');
   head.className = 'card-head';
 
-  const body = document.createElement('div');
-  body.className = 'card-body';
+  const detailId = `detail-${song.id}`;
+
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'card-toggle';
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-controls', detailId);
 
   const title = document.createElement('h2');
   title.className = 'card-title';
@@ -71,14 +76,14 @@ function createCard(song) {
   badge.className = `badge badge-${song.status}`;
   badge.textContent = STATUS_LABEL[song.status] || song.status;
   title.appendChild(badge);
-  body.appendChild(title);
+  toggle.appendChild(title);
 
   const sub = document.createElement('p');
   sub.className = 'card-sub';
   sub.textContent = song.memo ? `${song.artistText} · ${song.memo}` : song.artistText;
-  body.appendChild(sub);
+  toggle.appendChild(sub);
 
-  head.appendChild(body);
+  head.appendChild(toggle);
 
   const link = document.createElement('a');
   link.className = 'yt-link';
@@ -87,11 +92,16 @@ function createCard(song) {
   link.rel = 'noopener';
   link.setAttribute('aria-label', `${song.title} をYouTubeで開く`);
   link.innerHTML = YOUTUBE_ICON;
-  // summary 内のリンクなので、開閉をトグルさせずにYouTubeだけ開く
-  link.addEventListener('click', (event) => event.stopPropagation());
   head.appendChild(link);
 
   card.appendChild(head);
+
+  // grid-template-rows 0fr→1fr で高さをアニメーションさせるため clip 層を挟む
+  const wrap = document.createElement('div');
+  wrap.className = 'card-detail-wrap';
+  wrap.id = detailId;
+  const clip = document.createElement('div');
+  clip.className = 'card-detail-clip';
 
   const detail = document.createElement('div');
   detail.className = 'card-detail';
@@ -112,7 +122,9 @@ function createCard(song) {
   detailText.appendChild(createDetailRow('登録', song.registeredDate));
   detail.appendChild(detailText);
 
-  card.appendChild(detail);
+  clip.appendChild(detail);
+  wrap.appendChild(clip);
+  card.appendChild(wrap);
 
   return card;
 }
@@ -182,6 +194,13 @@ filtersEl.addEventListener('click', (event) => {
 sortSelect.addEventListener('change', () => {
   state.sort = sortSelect.value;
   render();
+});
+
+resultsEl.addEventListener('click', (event) => {
+  const toggle = event.target.closest('.card-toggle');
+  if (!toggle) return;
+  const open = toggle.closest('.card').classList.toggle('is-open');
+  toggle.setAttribute('aria-expanded', String(open));
 });
 
 async function loadSongs() {

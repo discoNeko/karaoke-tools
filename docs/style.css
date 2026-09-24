@@ -169,19 +169,25 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 8px 10px 14px;
+  padding-right: 8px;
+}
+
+.card-toggle {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 0 10px 14px;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: 12px 0 0 12px;
   cursor: pointer;
-  list-style: none;
   -webkit-tap-highlight-color: transparent;
 }
 
-.card-head::-webkit-details-marker {
-  display: none;
-}
-
-.card-body {
-  flex: 1;
-  min-width: 0;
+.card-toggle:active {
+  background: #24242e;
 }
 
 .card-title {
@@ -204,12 +210,41 @@ body {
   text-overflow: ellipsis;
 }
 
+/* 0fr→1fr のトランジションで高さをアニメーションさせる(iOS Safari でも動く) */
+.card-detail-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 180ms ease-out;
+}
+
+.card.is-open .card-detail-wrap {
+  grid-template-rows: 1fr;
+}
+
+.card-detail-clip {
+  overflow: hidden;
+}
+
 .card-detail {
   display: flex;
   gap: 12px;
   margin: 0 14px;
   padding: 10px 0 12px;
   border-top: 1px solid var(--card-border);
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+
+.card.is-open .card-detail {
+  opacity: 1;
+  transition-delay: 60ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-detail-wrap,
+  .card-detail {
+    transition: none;
+  }
 }
 
 .thumb {
