@@ -2,51 +2,61 @@
   {
     "id": "yt_SX_ViT4Ra7k",
     "title": "Lemon",
-    "artist": "米津玄師",
+    "artists": ["米津玄師"],
+    "tieUp": "アンナチュラル 主題歌",
     "youtubeUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
     "registeredAt": "2026-09-20T21:10:00+09:00",
     "status": "singable",
-    "key": -2,
     "memo": "DAMでは-2が歌いやすい"
   },
   {
     "id": "yt_M2cckDmNLMI",
     "title": "KICK BACK",
-    "artist": "米津玄師",
+    "artists": ["米津玄師"],
+    "tieUp": "チェンソーマン OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=M2cckDmNLMI",
     "registeredAt": "2026-09-21T19:45:00+09:00",
     "status": "practicing",
-    "key": 0,
     "memo": "ラスサビ怪しい"
   },
   {
     "id": "yt_x8VYWazR5mE",
     "title": "夜に駆ける",
-    "artist": "YOASOBI",
+    "artists": ["YOASOBI"],
+    "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=x8VYWazR5mE",
     "registeredAt": "2026-09-22T12:00:00+09:00",
     "status": "want",
-    "key": 0,
     "memo": ""
   },
   {
     "id": "yt_TQ8WlA2GXbk",
     "title": "Pretender",
-    "artist": "Official髭男dism",
+    "artists": ["Official髭男dism"],
+    "tieUp": "コンフィデンスマンJP 主題歌",
     "youtubeUrl": "https://www.youtube.com/watch?v=TQ8WlA2GXbk",
     "registeredAt": "2026-09-23T22:30:00+09:00",
     "status": "practicing",
-    "key": -3,
-    "memo": "サビが高いのでキーを下げる"
+    "memo": "サビが高いので-3"
   },
   {
     "id": "yt_CwkzK-F0Y00",
     "title": "紅蓮華",
-    "artist": "LiSA",
+    "artists": ["LiSA"],
+    "tieUp": "鬼滅の刃 OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=CwkzK-F0Y00",
     "registeredAt": "2026-09-24T20:30:00+09:00",
     "status": "want",
-    "key": -1,
     "memo": ""
+  },
+  {
+    "id": "yt_-tKVN2mAKRI",
+    "title": "打上花火",
+    "artists": ["DAOKO", "米津玄師"],
+    "tieUp": "打ち上げ花火、下から見るか?横から見るか? 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-tKVN2mAKRI",
+    "registeredAt": "2026-09-24T21:40:00+09:00",
+    "status": "want",
+    "memo": "デュエット向き"
   }
 ]

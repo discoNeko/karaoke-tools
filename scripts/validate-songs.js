@@ -7,7 +7,7 @@ const path = require('path');
 
 const SONGS_PATH = path.join(__dirname, '..', 'docs', 'songs.json');
 const STATUSES = ['want', 'practicing', 'singable'];
-const ALLOWED_FIELDS = ['id', 'title', 'artist', 'youtubeUrl', 'registeredAt', 'status', 'key', 'memo'];
+const ALLOWED_FIELDS = ['id', 'title', 'artists', 'tieUp', 'youtubeUrl', 'registeredAt', 'status', 'memo'];
 const CANONICAL_URL = /^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})$/;
 const ISO_8601 = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;
 
@@ -33,8 +33,8 @@ function requireString(song, index, field) {
 
 function label(song, index) {
   const title = typeof song.title === 'string' ? song.title : '(title不明)';
-  const artist = typeof song.artist === 'string' ? song.artist : '(artist不明)';
-  return `${index}: ${title} / ${artist}`;
+  const artists = Array.isArray(song.artists) ? song.artists.join(' / ') : '(artists不明)';
+  return `${index}: ${title} / ${artists}`;
 }
 
 let raw;
@@ -71,7 +71,6 @@ songs.forEach((song, index) => {
 
   const id = requireString(song, index, 'id');
   requireString(song, index, 'title');
-  requireString(song, index, 'artist');
   const youtubeUrl = requireString(song, index, 'youtubeUrl');
   const registeredAt = requireString(song, index, 'registeredAt');
 
@@ -97,16 +96,22 @@ songs.forEach((song, index) => {
     }
   }
 
+  if (!Array.isArray(song.artists) || song.artists.length === 0) {
+    error(index, `artists: 1人以上の配列にしてください (${JSON.stringify(song.artists)})`);
+  } else if (song.artists.some((name) => typeof name !== 'string' || name.trim() === '')) {
+    error(index, `artists: 空でない文字列の配列にしてください (${JSON.stringify(song.artists)})`);
+  }
+
   if (!STATUSES.includes(song.status)) {
     error(index, `status: ${STATUSES.join(' / ')} のいずれかにしてください (${JSON.stringify(song.status)})`);
   }
 
-  if (!Number.isInteger(song.key)) {
-    error(index, `key: 整数にしてください (${JSON.stringify(song.key)})`);
+  if (typeof song.tieUp !== 'string') {
+    error(index, `tieUp: 文字列にしてください(無い場合は空文字) (${JSON.stringify(song.tieUp)})`);
   }
 
-  if (song.memo !== undefined && typeof song.memo !== 'string') {
-    error(index, `memo: 文字列にしてください (${JSON.stringify(song.memo)})`);
+  if (typeof song.memo !== 'string') {
+    error(index, `memo: 文字列にしてください(無い場合は空文字) (${JSON.stringify(song.memo)})`);
   }
 
   Object.keys(song).forEach((field) => {

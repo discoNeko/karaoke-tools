@@ -31,11 +31,11 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
   {
     "id": "yt_SX_ViT4Ra7k",
     "title": "Lemon",
-    "artist": "米津玄師",
+    "artists": ["米津玄師"],
+    "tieUp": "アンナチュラル 主題歌",
     "youtubeUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
     "registeredAt": "2026-09-20T21:10:00+09:00",
     "status": "singable",
-    "key": -2,
     "memo": "DAMでは-2が歌いやすい"
   }
 ]
@@ -45,12 +45,18 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
 | --- | --- | --- | --- |
 | `id` | string | ○ | `yt_` + YouTube video ID。一意 |
 | `title` | string | ○ | 正式な曲名 |
-| `artist` | string | ○ | 正式な歌手名 |
+| `artists` | string[] | ○ | 正式な歌手名。1人でも配列。デュエット・コラボは全員を列挙 |
+| `tieUp` | string | ○ | アニメ・ドラマ・映画などの作品名。無い場合は空文字 `""` |
 | `youtubeUrl` | string | ○ | `https://www.youtube.com/watch?v=VIDEO_ID` 形式に統一 |
 | `registeredAt` | string | ○ | ISO 8601 / 日本時間(`+09:00`) |
 | `status` | string | ○ | `want` / `practicing` / `singable` |
-| `key` | number | ○ | カラオケのキー変更。整数。デフォルト `0` |
 | `memo` | string | ○ | 自由記述。無い場合は空文字 `""` |
+
+キー変更(原曲キーからの上げ下げ)専用のフィールドは持たない。
+**基本は原曲キーで歌う前提で、補正が必要な曲だけ `memo` に書く**(例: `"サビが高いので-3"`)。
+
+`title` / `artists` / `tieUp` はWebアプリの検索対象になる。
+`tieUp` を入れておくと「チェンソーマン」のような作品名でも曲を引ける。
 
 `status` の意味:
 
@@ -103,28 +109,31 @@ curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=VIDE
 
 `Not Found` が返る場合は動画が存在しない(またはIDの取り違え)。ユーザーに確認する。
 
-### 4-5. 正式な曲名・歌手名を特定する
+### 4-5. 正式な曲名・歌手名・作品名を特定する
 
 **YouTubeの動画タイトルをそのまま `title` にしない。**
 必要ならWeb検索も使い、カラオケで検索できる正式表記を特定する。
 
 ```text
 YouTubeタイトル: 米津玄師 Kenshi Yonezu - Lemon
-→ { "title": "Lemon", "artist": "米津玄師" }
+→ { "title": "Lemon", "artists": ["米津玄師"], "tieUp": "アンナチュラル 主題歌" }
 
 YouTubeタイトル: YOASOBI「夜に駆ける」 Official Music Video
-→ { "title": "夜に駆ける", "artist": "YOASOBI" }
+→ { "title": "夜に駆ける", "artists": ["YOASOBI"], "tieUp": "" }
 
-YouTubeタイトル: 【MV】ヒゲダン Pretender[Official Video]
-→ { "title": "Pretender", "artist": "Official髭男dism" }
+YouTubeタイトル: DAOKO × 米津玄師『打上花火』MUSIC VIDEO
+→ { "title": "打上花火", "artists": ["DAOKO", "米津玄師"], "tieUp": "打ち上げ花火、下から見るか?横から見るか? 主題歌" }
 ```
 
 ルール:
 
 - `【MV】` `Official Music Video` `[Official Video]` `(Lyric Video)` `- Topic` などの装飾は除去する
 - 英語併記のアーティスト名は日本語の公式表記に寄せる(`米津玄師 Kenshi Yonezu` → `米津玄師`)
-- アニメタイアップや副題(`/ TVアニメ「○○」OPテーマ`)は `title` に含めない
-- 歌ってみた・カバー動画は、原曲のアーティストを `artist` にし、`memo` に「○○のカバー動画」と書く
+- `×` `feat.` `with` などで複数名義の場合は `artists` に全員を並べる(表記順は動画・公式表記に従う)
+- アニメタイアップや副題(`/ TVアニメ「○○」OPテーマ`)は `title` に含めず、`tieUp` に入れる
+  - 書式は `作品名 + OP / ED / 主題歌 / 挿入歌`(例: `鬼滅の刃 OP`、`アンナチュラル 主題歌`)
+  - タイアップが無い曲は空文字 `""`
+- 歌ってみた・カバー動画は、原曲のアーティストを `artists` にし、`memo` に「○○のカバー動画」と書く
 - 判断に迷う場合(略称・別名義・複数アーティスト名義など)はユーザーに確認する
 
 ### 6-10. songs.json に追加
@@ -136,8 +145,8 @@ YouTubeタイトル: 【MV】ヒゲダン Pretender[Official Video]
 ```text
 registeredAt = 現在の日本時間
 status       = "want"
-key          = 0
 memo         = ""
+tieUp        = 調べた作品名(無ければ "")
 ```
 
 現在の日本時間は次のコマンドで取得する。
@@ -167,12 +176,13 @@ git diff
 ```text
 「Lemonを歌えるにして」        → status = "singable"
 「Lemonを練習中にして」        → status = "practicing"
-「Lemonのキーを-2にして」      → key = -2
+「Lemonのキーを-2にして」      → memo に "-2" を反映(キー専用フィールドは無い)
 「Lemonに『ラスサビ怪しい』とメモして」 → memo = "ラスサビ怪しい"
 ```
 
+- キー変更の指示は `memo` に書く。既存のmemoがある場合は追記・統合する(例: `"サビが高いので-3"`)
 - `id` / `youtubeUrl` / `registeredAt` は原則変更しない(登録日時は履歴として残す)
-- `title` / `artist` は表記が誤っていた場合のみ修正する
+- `title` / `artists` / `tieUp` は表記が誤っていた場合や、後から判明した場合に修正する
 - 編集後も `npm run validate` と `git diff` を必ず実行する
 
 ## 削除
@@ -189,12 +199,13 @@ npm run validate
 検証内容:
 
 - JSONとして valid / トップレベルが配列
-- `id` `title` `artist` `youtubeUrl` `registeredAt` が必須かつ空でない
+- `id` `title` `youtubeUrl` `registeredAt` が必須かつ空でない
+- `artists` が空でない文字列の配列
+- `tieUp` `memo` が文字列(空文字可)
 - `youtubeUrl` が canonical 形式
 - `id` が `yt_` + youtubeUrl の video ID と一致
 - `registeredAt` が ISO 8601(日本時間以外は警告)
 - `status` が `want` / `practicing` / `singable`
-- `key` が整数
 - `id` の重複なし / video ID の重複なし
 
 ## Git運用
@@ -221,6 +232,9 @@ update song: Lemon status=singable
   (曲情報の取得はエージェントが行う前提)
 - 曲登録用のWeb管理画面・APIサーバー・DBを追加しない
 - `docs/songs.json` 以外のファイルを、曲の追加・編集のついでに変更しない
+- **歌詞を `memo` などに書き写さない。** このリポジトリはGitHub Pagesで公開されるため、
+  歌詞(歌い出しの一節を含む)の掲載は公衆送信権の侵害になる。
+  曲を思い出す手がかりは、Webアプリ側がYouTubeのサムネイルと `tieUp` を展開表示することで担保している
 
 ## Webアプリを変更した場合
 

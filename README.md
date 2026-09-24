@@ -77,14 +77,14 @@ git commit / push
 ```json
 [
   {
-    "id": "yt_SX_ViT4Ra7k",
-    "title": "Lemon",
-    "artist": "米津玄師",
-    "youtubeUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
-    "registeredAt": "2026-09-20T21:10:00+09:00",
-    "status": "singable",
-    "key": -2,
-    "memo": "DAMでは-2が歌いやすい"
+    "id": "yt_-tKVN2mAKRI",
+    "title": "打上花火",
+    "artists": ["DAOKO", "米津玄師"],
+    "tieUp": "打ち上げ花火、下から見るか?横から見るか? 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-tKVN2mAKRI",
+    "registeredAt": "2026-09-24T21:40:00+09:00",
+    "status": "want",
+    "memo": "デュエット向き"
   }
 ]
 ```
@@ -93,12 +93,15 @@ git commit / push
 | --- | --- | --- | --- |
 | `id` | string | `yt_` + YouTube video ID。一意 | — |
 | `title` | string | 正式な曲名 | — |
-| `artist` | string | 正式な歌手名 | — |
+| `artists` | string[] | 正式な歌手名。1人でも配列、デュエットは全員 | — |
+| `tieUp` | string | アニメ・ドラマなどの作品名(例: `鬼滅の刃 OP`) | `""` |
 | `youtubeUrl` | string | `https://www.youtube.com/watch?v=VIDEO_ID` 形式 | — |
 | `registeredAt` | string | 登録日時。ISO 8601 / 日本時間(`+09:00`) | 登録時の日時 |
 | `status` | string | `want` / `practicing` / `singable` | `want` |
-| `key` | number | カラオケのキー変更(整数) | `0` |
 | `memo` | string | 自由記述 | `""` |
+
+キー変更の専用フィールドは持ちません。基本は原曲キーで歌う前提で、
+補正が必要な曲だけ `memo` に書きます(例: `"サビが高いので-3"`)。
 
 ### status の意味
 
@@ -110,14 +113,21 @@ singable   = 歌える
 
 ## 検索画面でできること
 
-- 曲名・歌手名の部分一致検索(検索ボックス1個、入力中にリアルタイム検索)
+- 曲名・歌手名・作品名の部分一致検索(検索ボックス1個、入力中にリアルタイム検索)
   - 大文字小文字、全角半角、ひらがな/カタカナの違いは無視する
   - スペース区切りで絞り込み(例: `米津 lemon`)
+  - `tieUp` も検索対象なので「チェンソーマン」で KICK BACK が出る
 - status での絞り込み(全部 / 歌える / 練習中 / 歌いたい)
 - 並び替え(登録が新しい順 / 古い順 / 歌手名順 / 曲名順)
 - 曲カードから YouTube を開く
+- 曲カードをタップするとアコーディオンで展開し、MVサムネイル・作品名・メモ全文・登録日を表示
+
+一覧は1曲2行(曲名+ステータス / 歌手名・メモ)に抑えて、1画面の表示曲数を優先している。
 
 検索はブラウザ上で `songs.json` を全件読み込んでJavaScriptで行う。検索APIは無い。
+
+> 歌詞は登録できません。GitHub Pagesは公開サイトなので、歌い出しを含む歌詞の掲載は
+> 著作権(公衆送信権)の侵害になります。曲を思い出す手がかりはサムネイルと作品名で代用しています。
 
 ## validation
 
@@ -125,7 +135,7 @@ singable   = 歌える
 npm run validate
 ```
 
-JSONの妥当性、必須フィールド、`status` の値、`key` が整数か、`id` と video ID の重複などを検証する。エラーがあれば終了コード1で落ちる。
+JSONの妥当性、必須フィールド、`artists` が空でない配列か、`status` の値、`id` と video ID の重複などを検証する。エラーがあれば終了コード1で落ちる。
 
 ## PWA利用方法
 

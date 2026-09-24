@@ -30,21 +30,36 @@ function normalize(text) {
 }
 
 function prepare(song) {
+  const artistText = song.artists.join(' / ');
   return {
     ...song,
-    searchText: normalize(`${song.title} ${song.artist}`),
+    artistText,
+    videoId: song.id.replace(/^yt_/, ''),
+    registeredDate: song.registeredAt.slice(0, 10),
+    searchText: normalize(`${song.title} ${artistText} ${song.tieUp}`),
     registeredTime: Date.parse(song.registeredAt) || 0,
   };
 }
 
-function formatKey(key) {
-  if (key === 0) return 'Key ±0';
-  return `Key ${key > 0 ? '+' : ''}${key}`;
+function createDetailRow(label, value) {
+  const row = document.createElement('p');
+  row.className = 'detail-row';
+  const name = document.createElement('span');
+  name.className = 'detail-label';
+  name.textContent = label;
+  row.appendChild(name);
+  const text = document.createElement('span');
+  text.textContent = value;
+  row.appendChild(text);
+  return row;
 }
 
 function createCard(song) {
-  const card = document.createElement('article');
+  const card = document.createElement('details');
   card.className = 'card';
+
+  const head = document.createElement('summary');
+  head.className = 'card-head';
 
   const body = document.createElement('div');
   body.className = 'card-body';
@@ -52,32 +67,18 @@ function createCard(song) {
   const title = document.createElement('h2');
   title.className = 'card-title';
   title.textContent = song.title;
-  body.appendChild(title);
-
-  const artist = document.createElement('p');
-  artist.className = 'card-artist';
-  artist.textContent = song.artist;
-  body.appendChild(artist);
-
-  const meta = document.createElement('p');
-  meta.className = 'card-meta';
   const badge = document.createElement('span');
   badge.className = `badge badge-${song.status}`;
   badge.textContent = STATUS_LABEL[song.status] || song.status;
-  meta.appendChild(badge);
-  const key = document.createElement('span');
-  key.textContent = formatKey(song.key);
-  meta.appendChild(key);
-  body.appendChild(meta);
+  title.appendChild(badge);
+  body.appendChild(title);
 
-  if (song.memo) {
-    const memo = document.createElement('p');
-    memo.className = 'card-memo';
-    memo.textContent = song.memo;
-    body.appendChild(memo);
-  }
+  const sub = document.createElement('p');
+  sub.className = 'card-sub';
+  sub.textContent = song.memo ? `${song.artistText} · ${song.memo}` : song.artistText;
+  body.appendChild(sub);
 
-  card.appendChild(body);
+  head.appendChild(body);
 
   const link = document.createElement('a');
   link.className = 'yt-link';
@@ -86,7 +87,32 @@ function createCard(song) {
   link.rel = 'noopener';
   link.setAttribute('aria-label', `${song.title} をYouTubeで開く`);
   link.innerHTML = YOUTUBE_ICON;
-  card.appendChild(link);
+  // summary 内のリンクなので、開閉をトグルさせずにYouTubeだけ開く
+  link.addEventListener('click', (event) => event.stopPropagation());
+  head.appendChild(link);
+
+  card.appendChild(head);
+
+  const detail = document.createElement('div');
+  detail.className = 'card-detail';
+
+  const thumb = document.createElement('img');
+  thumb.className = 'thumb';
+  thumb.src = `https://img.youtube.com/vi/${song.videoId}/mqdefault.jpg`;
+  thumb.alt = '';
+  thumb.loading = 'lazy';
+  thumb.width = 320;
+  thumb.height = 180;
+  detail.appendChild(thumb);
+
+  const detailText = document.createElement('div');
+  detailText.className = 'detail-text';
+  if (song.tieUp) detailText.appendChild(createDetailRow('作品', song.tieUp));
+  if (song.memo) detailText.appendChild(createDetailRow('メモ', song.memo));
+  detailText.appendChild(createDetailRow('登録', song.registeredDate));
+  detail.appendChild(detailText);
+
+  card.appendChild(detail);
 
   return card;
 }
@@ -99,7 +125,7 @@ function sortSongs(list) {
       return list.sort((a, b) => collator.compare(a.title, b.title));
     case 'artist':
       return list.sort(
-        (a, b) => collator.compare(a.artist, b.artist) || collator.compare(a.title, b.title)
+        (a, b) => collator.compare(a.artists[0], b.artists[0]) || collator.compare(a.title, b.title)
       );
     default:
       return list.sort((a, b) => b.registeredTime - a.registeredTime);
