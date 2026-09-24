@@ -72,7 +72,10 @@ function createCard(song) {
 
   const title = document.createElement('h2');
   title.className = 'card-title';
-  title.textContent = song.title;
+  const titleText = document.createElement('span');
+  titleText.className = 'title-text';
+  titleText.textContent = song.title;
+  title.appendChild(titleText);
   const badge = document.createElement('span');
   badge.className = `badge badge-${song.status}`;
   badge.textContent = STATUS_LABEL[song.status] || song.status;
