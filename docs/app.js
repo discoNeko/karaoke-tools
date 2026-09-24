@@ -205,8 +205,22 @@ async function loadSongs() {
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').catch((error) => console.warn('SW registration failed', error));
+    // updateViaCache: sw.js 自体がHTTPキャッシュされると更新検出が最大10分遅れるため無効化する
+    navigator.serviceWorker
+      .register('./sw.js', { updateViaCache: 'none' })
+      .catch((error) => console.warn('SW registration failed', error));
   });
+
+  // アプリ更新直後はキャッシュ済みの古いJSが最新の songs.json を読んでしまい表示が壊れる。
+  // 新しい Service Worker が制御を引き継いだ時点で読み込み直す(初回登録時は発火させない)。
+  if (navigator.serviceWorker.controller) {
+    let reloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (reloading) return;
+      reloading = true;
+      location.reload();
+    });
+  }
 }
 
 loadSongs();
