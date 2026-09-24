@@ -6,6 +6,7 @@
   --text: #f2f2f5;
   --text-sub: #a5a5b4;
   --accent: #a78bfa;
+  --confident: #f472b6;
   --singable: #4ade80;
   --practicing: #fbbf24;
   --want: #60a5fa;
@@ -89,22 +90,18 @@ body {
   mask: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a10 10 0 100 20 10 10 0 000-20zm4 13.2L15.2 16 12 12.8 8.8 16 8 15.2 11.2 12 8 8.8 8.8 8 12 11.2 15.2 8l.8.8L12.8 12z'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
+/* 5つのフィルターを 3 + 2 の2行に均等配置する(1行に並べると375px幅で溢れるため) */
 .filters {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   gap: 8px;
   margin-top: 8px;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.filters::-webkit-scrollbar {
-  display: none;
 }
 
 .chip {
-  flex: 1 0 auto;
+  grid-column: span 2;
   min-height: 44px;
-  padding: 0 16px;
+  padding: 0 10px;
   font-size: 16px;
   font-family: inherit;
   color: var(--text-sub);
@@ -113,6 +110,11 @@ body {
   border-radius: 22px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+}
+
+.chip:nth-child(4),
+.chip:nth-child(5) {
+  grid-column: span 3;
 }
 
 .chip.is-active {
@@ -282,6 +284,10 @@ body {
   font-size: 13px;
   font-weight: 700;
   color: #16161c;
+}
+
+.badge-confident {
+  background: var(--confident);
 }
 
 .badge-singable {

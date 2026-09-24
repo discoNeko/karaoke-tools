@@ -97,7 +97,7 @@ git commit / push
 | `tieUp` | string | アニメ・ドラマなどの作品名(例: `鬼滅の刃 OP`) | `""` |
 | `youtubeUrl` | string | `https://www.youtube.com/watch?v=VIDEO_ID` 形式 | — |
 | `registeredAt` | string | 登録日時。ISO 8601 / 日本時間(`+09:00`) | 登録時の日時 |
-| `status` | string | `want` / `practicing` / `singable` | `want` |
+| `status` | string | `want` / `practicing` / `singable` / `confident` | `want` |
 | `memo` | string | 自由記述 | `""` |
 
 キー変更の専用フィールドは持ちません。基本は原曲キーで歌う前提で、
@@ -109,7 +109,11 @@ git commit / push
 want       = 歌いたい
 practicing = 練習中
 singable   = 歌える
+confident  = 自信あり(十八番)
 ```
+
+習熟度の順は `want` → `practicing` → `singable` → `confident`。
+`singable` は「一通り歌える」、`confident` は「人前で自信を持って歌える」の区別です。
 
 ## 検索画面でできること
 
@@ -117,7 +121,7 @@ singable   = 歌える
   - 大文字小文字、全角半角、ひらがな/カタカナの違いは無視する
   - スペース区切りで絞り込み(例: `米津 lemon`)
   - `tieUp` も検索対象なので「チェンソーマン」で KICK BACK が出る
-- status での絞り込み(全部 / 歌える / 練習中 / 歌いたい)
+- status での絞り込み(全部 / 自信あり / 歌える / 練習中 / 歌いたい)
 - 並び替え(登録が新しい順 / 古い順 / 歌手名順 / 曲名順)
 - 曲カードから YouTube を開く
 - 曲カードをタップするとアコーディオンで展開し、MVサムネイル・作品名・メモ全文・登録日を表示

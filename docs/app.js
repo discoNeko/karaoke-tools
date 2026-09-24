@@ -4,6 +4,7 @@ const STATUS_LABEL = {
   want: '歌いたい',
   practicing: '練習中',
   singable: '歌える',
+  confident: '自信あり',
 };
 
 const YOUTUBE_ICON =

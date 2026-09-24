@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SONGS_PATH = path.join(__dirname, '..', 'docs', 'songs.json');
-const STATUSES = ['want', 'practicing', 'singable'];
+const STATUSES = ['want', 'practicing', 'singable', 'confident'];
 const ALLOWED_FIELDS = ['id', 'title', 'artists', 'tieUp', 'youtubeUrl', 'registeredAt', 'status', 'memo'];
 const CANONICAL_URL = /^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})$/;
 const ISO_8601 = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;

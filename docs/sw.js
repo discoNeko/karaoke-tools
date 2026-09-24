@@ -1,6 +1,6 @@
 // アプリ本体(HTML/CSS/JS/アイコン)を更新したら VERSION を上げる。
 // songs.json は常にネットワーク優先なので、曲を追加しただけなら更新不要。
-const VERSION = 'v5';
+const VERSION = 'v7';
 const CACHE = `karaoke-tools-${VERSION}`;
 const SONGS_TIMEOUT_MS = 3000;
 

@@ -49,7 +49,7 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
 | `tieUp` | string | ○ | アニメ・ドラマ・映画などの作品名。無い場合は空文字 `""` |
 | `youtubeUrl` | string | ○ | `https://www.youtube.com/watch?v=VIDEO_ID` 形式に統一 |
 | `registeredAt` | string | ○ | ISO 8601 / 日本時間(`+09:00`) |
-| `status` | string | ○ | `want` / `practicing` / `singable` |
+| `status` | string | ○ | `want` / `practicing` / `singable` / `confident` |
 | `memo` | string | ○ | 自由記述。無い場合は空文字 `""` |
 
 キー変更(原曲キーからの上げ下げ)専用のフィールドは持たない。
@@ -64,7 +64,12 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
 want       = 歌いたい
 practicing = 練習中
 singable   = 歌える
+confident  = 自信あり
 ```
+
+習熟度の順は `want` → `practicing` → `singable` → `confident`。
+`singable` は「一通り歌える」、`confident` は「人前で自信を持って歌える」十八番の曲。
+どちらか判断できない場合は `singable` にする。
 
 全フィールドを必ず含めること(`memo` が無い場合も `""` を入れる)。
 上記以外のフィールドは追加しない。
@@ -182,6 +187,8 @@ git diff
 
 ```text
 「Lemonを歌えるにして」        → status = "singable"
+「Lemonを自信ありにして」      → status = "confident"
+「Lemonは十八番」              → status = "confident"
 「Lemonを練習中にして」        → status = "practicing"
 「Lemonのキーを-2にして」      → memo に "-2" を反映(キー専用フィールドは無い)
 「Lemonに『ラスサビ怪しい』とメモして」 → memo = "ラスサビ怪しい"
@@ -212,7 +219,7 @@ npm run validate
 - `youtubeUrl` が canonical 形式
 - `id` が `yt_` + youtubeUrl の video ID と一致
 - `registeredAt` が ISO 8601(日本時間以外は警告)
-- `status` が `want` / `practicing` / `singable`
+- `status` が `want` / `practicing` / `singable` / `confident`
 - `id` の重複なし / video ID の重複なし
 
 ## Git運用
