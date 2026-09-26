@@ -1468,5 +1468,95 @@
     "registeredAt": "2024-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
+  },
+  {
+    "id": "yt_UOcKAfS1x1o",
+    "title": "バニー",
+    "artists": ["すりぃ", "鏡音レン"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UOcKAfS1x1o",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_mq88yUFdVng",
+    "title": "ラヴィ",
+    "artists": ["すりぃ", "鏡音レン"],
+    "tieUp": "#コンパス 戦闘摂理解析システム",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mq88yUFdVng",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_gr4FAlsibeg",
+    "title": "Flyer!",
+    "artists": ["Vivid BAD SQUAD", "鏡音レン"],
+    "tieUp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gr4FAlsibeg",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_UNvwjr-UdyU",
+    "title": "Honeycomb Summer",
+    "artists": ["Crazy:B"],
+    "tieUp": "あんさんぶるスターズ！！",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UNvwjr-UdyU",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Q7AVA1e0qN4",
+    "title": "かいしんのいちげき！",
+    "artists": ["天月-あまつき-"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q7AVA1e0qN4",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_E5Jy_h1eHzY",
+    "title": "月曜日の憂鬱",
+    "artists": ["天月-あまつき-", "HoneyWorks"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=E5Jy_h1eHzY",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_r1ZVPTCOCSQ",
+    "title": "灼熱にて純情(wii-wii-woo)",
+    "artists": ["星街すいせい"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=r1ZVPTCOCSQ",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt__tq1qEsp81w",
+    "title": "月を見ていた",
+    "artists": ["米津玄師"],
+    "tieUp": "FINAL FANTASY XVI テーマソング",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_tq1qEsp81w",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_pgXpM4l_MwI",
+    "title": "唱",
+    "artists": ["Ado"],
+    "tieUp": "ユニバーサル・スタジオ・ジャパン ゾンビ・デ・ダンス テーマソング",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pgXpM4l_MwI",
+    "registeredAt": "2023-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
   }
 ]
