@@ -1978,5 +1978,45 @@
     "registeredAt": "2021-04-01T00:00:00+09:00",
     "status": "want",
     "memo": "日本語版"
+  },
+  {
+    "id": "yt_qkodnFRKIME",
+    "title": "Can not be waiting anymore?",
+    "artists": ["春野", "あめごろう"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qkodnFRKIME",
+    "registeredAt": "2020-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_9M31-up1Emw",
+    "title": "あの夏が飽和する。",
+    "artists": ["カンザキイオリ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9M31-up1Emw",
+    "registeredAt": "2020-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "EMAのカバー動画"
+  },
+  {
+    "id": "yt_9orupK2mjMY",
+    "title": "告白",
+    "artists": ["カンザキイオリ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9orupK2mjMY",
+    "registeredAt": "2020-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "花譜のカバー動画"
+  },
+  {
+    "id": "yt_Uig9poGUsrA",
+    "title": "Multitalents",
+    "artists": ["PSYQUI"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Uig9poGUsrA",
+    "registeredAt": "2020-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
   }
 ]
