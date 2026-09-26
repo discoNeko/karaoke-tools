@@ -1898,5 +1898,85 @@
     "registeredAt": "2021-09-01T00:00:00+09:00",
     "status": "want",
     "memo": "ファンによるカバー動画"
+  },
+  {
+    "id": "yt_Z5F2xJoS85M",
+    "title": "Swelling",
+    "artists": ["PSYQUI", "Sennzai"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Z5F2xJoS85M",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_mEQZNRT6Pqk",
+    "title": "就寝御礼",
+    "artists": ["PSYQUI"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mEQZNRT6Pqk",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_0rKTlVxMp_o",
+    "title": "東京フラッシュ",
+    "artists": ["Vaundy"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0rKTlVxMp_o",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "KMNZ LITAのカバー動画"
+  },
+  {
+    "id": "yt_MbkDZ01m0xg",
+    "title": "愛を伝えたいだとか",
+    "artists": ["あいみょん"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MbkDZ01m0xg",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "KMNZ LITAのカバー動画"
+  },
+  {
+    "id": "yt_t4gKVo7dLWo",
+    "title": "HIP",
+    "artists": ["MAMAMOO"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=t4gKVo7dLWo",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "KMNZ LITA & VESPERBELL ヨミのカバー動画"
+  },
+  {
+    "id": "yt_m1iBuuXLjJY",
+    "title": "蓋棺クリサリス",
+    "artists": ["Team Grimoire", "Sennzai"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=m1iBuuXLjJY",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_-SVH8fA7nlY",
+    "title": "ebullient future",
+    "artists": ["ELISA"],
+    "tieUp": "ef - a tale of melodies. OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-SVH8fA7nlY",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "英語版"
+  },
+  {
+    "id": "yt_bJNfN_poD1I",
+    "title": "ebullient future",
+    "artists": ["ELISA"],
+    "tieUp": "ef - a tale of melodies. OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bJNfN_poD1I",
+    "registeredAt": "2021-04-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "日本語版"
   }
 ]
