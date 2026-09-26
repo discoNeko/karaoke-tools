@@ -1838,5 +1838,65 @@
     "registeredAt": "2023-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
+  },
+  {
+    "id": "yt_06YWg6Y1kxo",
+    "title": "Pale",
+    "artists": ["MIMI", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=06YWg6Y1kxo",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_P_DgrvZmXM0",
+    "title": "もでらーと",
+    "artists": ["MIMI", "わん子"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=P_DgrvZmXM0",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_AUXf_fG0tOg",
+    "title": "刹那の渦",
+    "artists": ["須田景凪"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AUXf_fG0tOg",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_PWbRleMGagU",
+    "title": "雨とカプチーノ",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=PWbRleMGagU",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_004UFLdIxaE",
+    "title": "さぁ",
+    "artists": ["SURFACE"],
+    "tieUp": "まもって守護月天! OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=004UFLdIxaE",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ZwyRM___avY",
+    "title": "愛のシュプリーム！",
+    "artists": ["fhána"],
+    "tieUp": "小林さんちのメイドラゴンS OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZwyRM___avY",
+    "registeredAt": "2021-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "ファンによるカバー動画"
   }
 ]
