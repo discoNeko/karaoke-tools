@@ -2448,5 +2448,125 @@
     "registeredAt": "2019-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
+  },
+  {
+    "id": "yt_0HYm60Mjm0k",
+    "title": "命に嫌われている。",
+    "artists": ["カンザキイオリ", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0HYm60Mjm0k",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_BiXQbR5IPJk",
+    "title": "恋うた",
+    "artists": ["音速ライン"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BiXQbR5IPJk",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_NOw3MP-rpLo",
+    "title": "街風",
+    "artists": ["音速ライン"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NOw3MP-rpLo",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_oOFC7cmW504",
+    "title": "虚構の楽園",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oOFC7cmW504",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_BeEZSeAE1fg",
+    "title": "告解の部屋 ~蜜薬ランガージュ~",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BeEZSeAE1fg",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "清風明月『竜と炎の物語』(C85)収録"
+  },
+  {
+    "id": "yt_YDTxeatxZqo",
+    "title": "Dark Prince",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YDTxeatxZqo",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_7zwCIz-Ohn4",
+    "title": "乙女解剖",
+    "artists": ["DECO*27", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7zwCIz-Ohn4",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_7wJXrdJ75to",
+    "title": "Silver Blanchette",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7wJXrdJ75to",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "アルバム『Silver Blanchette』(C91)の表題曲"
+  },
+  {
+    "id": "yt_mI5F4iSnXYI",
+    "title": "WICKED",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mI5F4iSnXYI",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_EmFZ1tH_2yI",
+    "title": "The Clockwork Rose",
+    "artists": ["葉月ゆら"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=EmFZ1tH_2yI",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "アルバム『The Clockwork Rose -時計仕掛けの薔薇少女-』(M3-37)の表題曲"
+  },
+  {
+    "id": "yt_VAFqzABJufc",
+    "title": "夢, 麗しく闇を奏でる",
+    "artists": ["葉月ゆら", "konori", "凪佳二", "月子"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VAFqzABJufc",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "Carnaval Papillon『夢, 麗しく闇を奏でる』収録"
+  },
+  {
+    "id": "yt_5_XuKEQx88o",
+    "title": "井中贋作工房",
+    "artists": ["鳥島千佳里"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5_XuKEQx88o",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "サークル Krik／Krak『アーキタイプの井戸の怪物』収録"
   }
 ]
