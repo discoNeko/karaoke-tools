@@ -55,7 +55,7 @@
     "artists": ["MIMI", "初音ミク"],
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=Q5XzviXSHQ4",
-    "registeredAt": "2026-09-24T22:11:11+09:00",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
   },
@@ -65,7 +65,7 @@
     "artists": ["小沢健二", "スチャダラパー"],
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=BhWq-ceJa5k",
-    "registeredAt": "2026-09-24T22:11:11+09:00",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
     "status": "want",
     "memo": "KMNZのカバー動画"
   },
@@ -875,7 +875,7 @@
     "artists": ["小松未可子"],
     "tieUp": "ボールルームへようこそ ED",
     "youtubeUrl": "https://www.youtube.com/watch?v=7h65FRlTxg0",
-    "registeredAt": "2024-01-01T00:00:00+09:00",
+    "registeredAt": "2019-01-01T00:00:00+09:00",
     "status": "singable",
     "memo": ""
   },
