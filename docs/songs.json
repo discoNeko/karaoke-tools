@@ -95,7 +95,7 @@
     "artists": ["TaKU.K", "GUMI"],
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=c8krJphGnO0",
-    "registeredAt": "2026-09-24T22:11:11+09:00",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
   },
@@ -3206,6 +3206,386 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=-Zo31QNPot0",
     "registeredAt": "2018-05-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_JaBmR8tC1oU",
+    "title": "[A]ddiction",
+    "artists": ["GigaReol", "EVO+"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JaBmR8tC1oU",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_8IK6eLTNV1k",
+    "title": "宵々古今",
+    "artists": ["Reol"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8IK6eLTNV1k",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_FrUKGoBkVvI",
+    "title": "Hysteric Bullet",
+    "artists": ["GARNiDELiA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FrUKGoBkVvI",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "みうめ・メイリア・217＋ATY の踊ってみた動画"
+  },
+  {
+    "id": "yt_3Hd2En_H6uA",
+    "title": "心臓デモクラシー",
+    "artists": ["みきとP"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3Hd2En_H6uA",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "向日葵のカバー動画"
+  },
+  {
+    "id": "yt_Xg-qfsKN2_E",
+    "title": "ロキ",
+    "artists": ["みきとP", "鏡音リン"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Xg-qfsKN2_E",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_jP3wAOxnRmk",
+    "title": "たりない",
+    "artists": ["笹川真生"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jP3wAOxnRmk",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_SpJ0Anejl9s",
+    "title": "ドリームレス・ドリームス",
+    "artists": ["はるまきごはん", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SpJ0Anejl9s",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "アコースティックアレンジ版"
+  },
+  {
+    "id": "yt_UvUJbhxUKT8",
+    "title": "天使だと思っていたのに",
+    "artists": ["鬱P", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UvUJbhxUKT8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_4iXenMW9nHA",
+    "title": "すーぱー☆あふぇくしょん",
+    "artists": ["栗林みな実", "橋本みゆき", "飛蘭", "美郷あき", "yozuca*", "rino"],
+    "tieUp": "カーニバル・ファンタズム OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4iXenMW9nHA",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_wrpRv1pyV6I",
+    "title": "THERE IS A REASON",
+    "artists": ["鈴木このみ"],
+    "tieUp": "劇場版 ノーゲーム・ノーライフ ゼロ 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=wrpRv1pyV6I",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_ZwJs5Zc9oFk",
+    "title": "エンド",
+    "artists": ["Reol"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZwJs5Zc9oFk",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_m3ED0xZS_jo",
+    "title": "他人事の音がする",
+    "artists": ["あめのむらくもP"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=m3ED0xZS_jo",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "Souのカバー動画"
+  },
+  {
+    "id": "yt_xbdAM3WM_n8",
+    "title": "JINGO JUNGLE",
+    "artists": ["MYTH & ROID"],
+    "tieUp": "幼女戦記 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xbdAM3WM_n8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_OgXZn_H_QAI",
+    "title": "Los! Los! Los!",
+    "artists": ["ターニャ・デグレチャフ(CV:悠木碧)"],
+    "tieUp": "幼女戦記 ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OgXZn_H_QAI",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_xYVcxsuj0PI",
+    "title": "Bitter Majesty",
+    "artists": ["八王子P", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xYVcxsuj0PI",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_0X_pI_SCDK8",
+    "title": "コバルトメモリーズ",
+    "artists": ["はるまきごはん", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0X_pI_SCDK8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_7UevOcNzMck",
+    "title": "Paradisus-Paradoxum",
+    "artists": ["MYTH & ROID"],
+    "tieUp": "Re:ゼロから始める異世界生活 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7UevOcNzMck",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_QQzJ0IpBrWw",
+    "title": "STRAIGHT BET",
+    "artists": ["MYTH & ROID"],
+    "tieUp": "Re:ゼロから始める異世界生活 挿入歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QQzJ0IpBrWw",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_rjIl_xFUruM",
+    "title": "Because We Can",
+    "artists": ["Fatboy Slim"],
+    "tieUp": "ムーラン・ルージュ 挿入歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rjIl_xFUruM",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_TIzLweV75LU",
+    "title": "エンゼルフィッシュ",
+    "artists": ["パトリチェフ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TIzLweV75LU",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "EVO+のカバー動画(ver.EVO+2015)"
+  },
+  {
+    "id": "yt_x-sncBCixiY",
+    "title": "輪舞曲",
+    "artists": ["EVO+"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=x-sncBCixiY",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_t7MBzMP4OzY",
+    "title": "ヒッチコック",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=t7MBzMP4OzY",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_7fcc5MOT-r8",
+    "title": "シエレトワール",
+    "artists": ["蝶々P", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7fcc5MOT-r8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_KhdXvKwrAcQ",
+    "title": "Twig",
+    "artists": ["大沼パセリ", "rei sirose"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KhdXvKwrAcQ",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_-tUXOaYDsT0",
+    "title": "彼女",
+    "artists": ["EVO+"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-tUXOaYDsT0",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_dXb7ItXXX5Q",
+    "title": "馬鹿",
+    "artists": ["syudou", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dXb7ItXXX5Q",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_2IsBcAjUBVg",
+    "title": "colors",
+    "artists": ["大沼パセリ", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2IsBcAjUBVg",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_9ypEFXTakV8",
+    "title": "準透明少年",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9ypEFXTakV8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_-VKIqrvVOpo",
+    "title": "ただ君に晴れ",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-VKIqrvVOpo",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_bUbOc97FpUA",
+    "title": "flos",
+    "artists": ["R Sound Design", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=bUbOc97FpUA",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_U7NUU12t2ms",
+    "title": "Lust Blue",
+    "artists": ["R Sound Design", "逆音セシル"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=U7NUU12t2ms",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_QtuWTHHzfXE",
+    "title": "桃源恋歌",
+    "artists": ["GARNiDELiA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QtuWTHHzfXE",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "みうめ・メイリア・217 の踊ってみた動画"
+  },
+  {
+    "id": "yt_RdF3UyLiaMY",
+    "title": "アイコトバ",
+    "artists": ["GARNiDELiA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RdF3UyLiaMY",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_SYo7GMuUacY",
+    "title": "About me",
+    "artists": ["蝶々P"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SYo7GMuUacY",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "あらきのカバー動画"
+  },
+  {
+    "id": "yt_Oc6EW6gGJC8",
+    "title": "Lamb.",
+    "artists": ["GARNiDELiA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Oc6EW6gGJC8",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "みうめ・メイリア・217 の踊ってみた動画"
+  },
+  {
+    "id": "yt_4tv6p5ACUVM",
+    "title": "REFLEXIÓN",
+    "artists": ["luz"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4tv6p5ACUVM",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Cc-Ecr6Yh2Y",
+    "title": "HYDRA",
+    "artists": ["MYTH & ROID"],
+    "tieUp": "オーバーロードII ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Cc-Ecr6Yh2Y",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_Y_0VKKoj-A0",
+    "title": "輪舞-revolution",
+    "artists": ["奥井雅美"],
+    "tieUp": "少女革命ウテナ OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Y_0VKKoj-A0",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
   }
