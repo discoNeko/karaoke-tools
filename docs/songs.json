@@ -36,7 +36,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=2kZVEUGLgy4",
     "registeredAt": "2026-09-24T22:11:11+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": ""
   },
   {
@@ -98,16 +98,6 @@
     "registeredAt": "2026-09-24T22:11:11+09:00",
     "status": "want",
     "memo": ""
-  },
-  {
-    "id": "yt_A2mRKHkdQqM",
-    "title": "METEOR",
-    "artists": ["DIVELA", "初音ミク"],
-    "tieUp": "",
-    "youtubeUrl": "https://www.youtube.com/watch?v=A2mRKHkdQqM",
-    "registeredAt": "2026-09-24T22:11:11+09:00",
-    "status": "want",
-    "memo": "さばとPによる重音テト(Synthesizer V)のカバー動画"
   },
   {
     "id": "yt_-vNiPyimaLQ",
@@ -577,7 +567,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=isZE_g2wMrc",
     "registeredAt": "2025-09-01T00:00:00+09:00",
     "status": "want",
-    "memo": ""
+    "memo": "カラオケ未収録"
   },
   {
     "id": "yt_XogSflwXgpw",
@@ -767,7 +757,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=P6ZLs39MBlk",
     "registeredAt": "2025-05-01T00:00:00+09:00",
     "status": "singable",
-    "memo": "大神ミオのカバー動画"
+    "memo": "JoySound X1のみで配信"
   },
   {
     "id": "yt_4fndeDfaWCg",
@@ -927,7 +917,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=ZNyaqwhL9ls",
     "registeredAt": "2024-09-01T00:00:00+09:00",
     "status": "want",
-    "memo": ""
+    "memo": "DAMでのみ配信"
   },
   {
     "id": "yt_kKYoH7O1Kdg",
@@ -1436,7 +1426,7 @@
     "tieUp": "〈物語〉シリーズ オフ&モンスターシーズン 主題歌",
     "youtubeUrl": "https://www.youtube.com/watch?v=BryspbM6s3E",
     "registeredAt": "2024-01-01T00:00:00+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": ""
   },
   {
