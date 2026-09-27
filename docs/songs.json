@@ -3588,5 +3588,25 @@
     "registeredAt": "2018-01-01T00:00:00+09:00",
     "status": "want",
     "memo": ""
+  },
+  {
+    "id": "yt_2DbspSIiRYM",
+    "title": "月のしずく",
+    "artists": ["RUI"],
+    "tieUp": "黄泉がえり 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2DbspSIiRYM",
+    "registeredAt": "2018-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "柴咲コウが演じる劇中の歌手RUI名義"
+  },
+  {
+    "id": "yt_7CUpc5K1li4",
+    "title": "..",
+    "artists": ["全てあなたの所為です。"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7CUpc5K1li4",
+    "registeredAt": "2018-09-01T00:00:00+09:00",
+    "status": "want",
+    "memo": "配信シングル『. .. ...』収録"
   }
 ]
