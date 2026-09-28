@@ -213,7 +213,54 @@ filtersEl.addEventListener('click', (event) => {
     chip.classList.toggle('is-active', active);
     chip.setAttribute('aria-pressed', String(active));
   });
+  button.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
   render();
+});
+
+// 曲リスト上の横スワイプで隣のステータスへ切り替える(端では止まる)
+const SWIPE_MIN_DISTANCE = 60;
+const SWIPE_EDGE_GUARD = 24; // 画面端からのスワイプは iOS の「戻る」ジェスチャーに譲る
+let swipeStart = null;
+
+resultsEl.addEventListener(
+  'touchstart',
+  (event) => {
+    const touch = event.touches[0];
+    const nearEdge =
+      touch.clientX < SWIPE_EDGE_GUARD || touch.clientX > window.innerWidth - SWIPE_EDGE_GUARD;
+    swipeStart = event.touches.length === 1 && !nearEdge ? { x: touch.clientX, y: touch.clientY } : null;
+  },
+  { passive: true }
+);
+
+resultsEl.addEventListener(
+  'touchend',
+  (event) => {
+    if (!swipeStart) return;
+    const touch = event.changedTouches[0];
+    const dx = touch.clientX - swipeStart.x;
+    const dy = touch.clientY - swipeStart.y;
+    swipeStart = null;
+    if (Math.abs(dx) < SWIPE_MIN_DISTANCE || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+
+    const chips = [...filtersEl.querySelectorAll('.chip')];
+    const current = chips.findIndex((chip) => chip.dataset.status === state.status);
+    const next = chips[current + (dx < 0 ? 1 : -1)];
+    if (!next) return;
+    next.click();
+    resultsEl.classList.remove('slide-from-left', 'slide-from-right');
+    void resultsEl.offsetWidth; // アニメーションを再生し直すためにリフローさせる
+    resultsEl.classList.add(dx < 0 ? 'slide-from-right' : 'slide-from-left');
+  },
+  { passive: true }
+);
+
+resultsEl.addEventListener('touchcancel', () => {
+  swipeStart = null;
+});
+
+resultsEl.addEventListener('animationend', () => {
+  resultsEl.classList.remove('slide-from-left', 'slide-from-right');
 });
 
 sortSelect.addEventListener('change', () => {

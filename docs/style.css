@@ -167,6 +167,31 @@ body {
   gap: 10px;
 }
 
+.results.slide-from-right {
+  animation: slide-from-right 180ms ease-out;
+}
+
+.results.slide-from-left {
+  animation: slide-from-left 180ms ease-out;
+}
+
+@keyframes slide-from-right {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slide-from-left {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .results.slide-from-right,
+  .results.slide-from-left {
+    animation: none;
+  }
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--card-border);
