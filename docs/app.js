@@ -49,10 +49,30 @@ function createDetailRow(label, value) {
   name.className = 'detail-label';
   name.textContent = label;
   row.appendChild(name);
-  const text = document.createElement('span');
-  text.textContent = value;
-  row.appendChild(text);
+  if (typeof value === 'string') {
+    const text = document.createElement('span');
+    text.textContent = value;
+    row.appendChild(text);
+  } else {
+    row.appendChild(value);
+  }
   return row;
+}
+
+// 歌手名をタップすると検索欄にその名前を入れて絞り込む
+function createArtistLinks(artists) {
+  const wrap = document.createElement('span');
+  wrap.className = 'artist-links';
+  artists.forEach((artist) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'artist-link';
+    button.dataset.artist = artist;
+    button.textContent = artist;
+    button.setAttribute('aria-label', `${artist} で絞り込む`);
+    wrap.appendChild(button);
+  });
+  return wrap;
 }
 
 function createCard(song) {
@@ -121,6 +141,7 @@ function createCard(song) {
 
   const detailText = document.createElement('div');
   detailText.className = 'detail-text';
+  detailText.appendChild(createDetailRow('歌手', createArtistLinks(song.artists)));
   if (song.tieUp) detailText.appendChild(createDetailRow('作品', song.tieUp));
   if (song.memo) detailText.appendChild(createDetailRow('メモ', song.memo));
   detailText.appendChild(createDetailRow('登録', song.registeredDate));
@@ -201,6 +222,15 @@ sortSelect.addEventListener('change', () => {
 });
 
 resultsEl.addEventListener('click', (event) => {
+  const artistLink = event.target.closest('.artist-link');
+  if (artistLink) {
+    searchInput.value = artistLink.dataset.artist;
+    state.query = searchInput.value;
+    render();
+    window.scrollTo({ top: 0 });
+    return;
+  }
+
   const toggle = event.target.closest('.card-toggle');
   if (!toggle) return;
   const open = toggle.closest('.card').classList.toggle('is-open');
