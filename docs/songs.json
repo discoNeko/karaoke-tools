@@ -1526,7 +1526,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=lw7pcm1W5tw",
     "registeredAt": "2023-01-05T00:31:13+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": ""
   },
   {
@@ -1836,7 +1836,7 @@
     "tieUp": "小林さんちのメイドラゴンS OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZwyRM___avY",
     "registeredAt": "2022-09-20T20:24:38+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": "ファンによるカバー動画"
   },
   {
@@ -2396,7 +2396,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=BiXQbR5IPJk",
     "registeredAt": "2019-03-01T00:00:00+09:00",
-    "status": "want",
+    "status": "confident",
     "memo": ""
   },
   {
@@ -3676,7 +3676,7 @@
     "tieUp": "ゼロの使い魔 ～双月の騎士～ OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=U7qAjAiBhYQ",
     "registeredAt": "2016-03-25T22:37:26+09:00",
-    "status": "want",
+    "status": "singable",
     "memo": ""
   },
   {
@@ -3728,16 +3728,6 @@
     "registeredAt": "2016-03-25T22:37:26+09:00",
     "status": "want",
     "memo": ""
-  },
-  {
-    "id": "yt_VpzETZUSm7I",
-    "title": "一番の宝物 ～Yui final ver.～",
-    "artists": ["Girls Dead Monster"],
-    "tieUp": "Angel Beats! 挿入歌",
-    "youtubeUrl": "https://www.youtube.com/watch?v=VpzETZUSm7I",
-    "registeredAt": "2016-03-25T22:37:26+09:00",
-    "status": "want",
-    "memo": "アレンジ動画"
   },
   {
     "id": "yt_Cr69HrCs1QI",
@@ -4076,7 +4066,7 @@
     "tieUp": "コゼットの肖像 主題歌",
     "youtubeUrl": "https://www.youtube.com/watch?v=AbBsr4EhGjA",
     "registeredAt": "2016-03-25T22:37:26+09:00",
-    "status": "want",
+    "status": "confident",
     "memo": ""
   },
   {
@@ -7170,26 +7160,6 @@
     "memo": ""
   },
   {
-    "id": "yt_Or5lCqWyYE8",
-    "title": "ネ土会ェ貝南犬☆カゞんIよ″るノDA!!｡",
-    "artists": ["ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ", "ずんだもん"],
-    "tieUp": "",
-    "youtubeUrl": "https://www.youtube.com/watch?v=Or5lCqWyYE8",
-    "registeredAt": "2023-11-30T05:45:14+09:00",
-    "status": "want",
-    "memo": ""
-  },
-  {
-    "id": "yt_Wkrs11bLvpo",
-    "title": "POKÉDANCE",
-    "artists": ["Creepy Nuts"],
-    "tieUp": "ポケモン",
-    "youtubeUrl": "https://www.youtube.com/watch?v=Wkrs11bLvpo",
-    "registeredAt": "2024-04-03T21:48:21+09:00",
-    "status": "want",
-    "memo": ""
-  },
-  {
     "id": "yt_swxob0SJyHg",
     "title": "アゲハ蝶",
     "artists": ["ポルノグラフィティ"],
@@ -7210,16 +7180,6 @@
     "memo": "ライブ映像(「言って。」と連続)"
   },
   {
-    "id": "yt_1qtIoroF_Y4",
-    "title": "Let's Go",
-    "artists": ["JAXSON GAMBLE"],
-    "tieUp": "",
-    "youtubeUrl": "https://www.youtube.com/watch?v=1qtIoroF_Y4",
-    "registeredAt": "2026-07-02T19:50:51+09:00",
-    "status": "want",
-    "memo": ""
-  },
-  {
     "id": "yt_s_jMr9Qx9Gg",
     "title": "Keep on keeping on",
     "artists": ["SawanoHiroyuki[nZk]", "mizuki"],
@@ -7236,7 +7196,157 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=zRar5r3TieE",
     "registeredAt": "2017-08-21T03:55:09+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_jWTZimwmwoM",
+    "title": "Forever...",
+    "artists": ["savage genius"],
+    "tieUp": "エレメンタル ジェレイド OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jWTZimwmwoM",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_qyKBoVV51Ls",
+    "title": "絶対的な関係",
+    "artists": ["赤い公園"],
+    "tieUp": "ロストデイズ 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qyKBoVV51Ls",
+    "registeredAt": "2016-03-25T00:00:00+09:00",
     "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_vjj16qog4vQ",
+    "title": "明日晴れるかな",
+    "artists": ["桑田佳祐"],
+    "tieUp": "プロポーズ大作戦 主題歌",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vjj16qog4vQ",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "confident",
+    "memo": ""
+  },
+  {
+    "id": "yt_KmO-Tg6csqs",
+    "title": "不毛！",
+    "artists": ["ぽてんしゃる0", "GUMI", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KmO-Tg6csqs",
+    "registeredAt": "2016-03-25T00:00:00+09:00",
+    "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_M4pfQlL7bP8",
+    "title": "サイコモーション",
+    "artists": ["out of service", "GUMI"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=M4pfQlL7bP8",
+    "registeredAt": "2016-03-25T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_Vp05lEYR5dc",
+    "title": "ホワイトアウト",
+    "artists": ["out of service", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Vp05lEYR5dc",
+    "registeredAt": "2016-03-25T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_DgQtZGzutj4",
+    "title": "魔弾 ～Der Freischütz～",
+    "artists": ["T.M.Revolution"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DgQtZGzutj4",
+    "registeredAt": "2014-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_3Hg-tIitXkU",
+    "title": "HOWLING",
+    "artists": ["abingdon boys school"],
+    "tieUp": "DARKER THAN BLACK -黒の契約者- OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3Hg-tIitXkU",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_n07mYeh-OPg",
+    "title": "友情物語",
+    "artists": ["Aice5"],
+    "tieUp": "いぬかみっ! ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=n07mYeh-OPg",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_5MuaJDv9FoE",
+    "title": "あんずのうた",
+    "artists": ["双葉杏(CV:五十嵐裕美)"],
+    "tieUp": "アイドルマスター シンデレラガールズ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5MuaJDv9FoE",
+    "registeredAt": "2015-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_NFVszxIykGI",
+    "title": "JOINT",
+    "artists": ["川田まみ"],
+    "tieUp": "灼眼のシャナII OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NFVszxIykGI",
+    "registeredAt": "2014-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_xQ0UtFq24i8",
+    "title": "鬼帝の剣",
+    "artists": ["ALI PROJECT"],
+    "tieUp": "鉄のラインバレル OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xQ0UtFq24i8",
+    "registeredAt": "2014-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_OQz8nEKzgZs",
+    "title": "カンタレラ",
+    "artists": ["WhiteFlame", "KAITO", "初音ミク"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OQz8nEKzgZs",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "confident",
+    "memo": ""
+  },
+  {
+    "id": "yt_qwJhWJRYpos",
+    "title": "M'AIDER遭難ガール",
+    "artists": ["out of service", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qwJhWJRYpos",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "want",
+    "memo": ""
+  },
+  {
+    "id": "yt_JJaCwW4HyVs",
+    "title": "雲と幽霊",
+    "artists": ["ヨルシカ"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JJaCwW4HyVs",
+    "registeredAt": "2026-10-02T19:05:36+09:00",
+    "status": "practicing",
     "memo": ""
   }
 ]
