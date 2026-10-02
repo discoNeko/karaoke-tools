@@ -4080,11 +4080,11 @@
     "memo": ""
   },
   {
-    "id": "yt_2zqKm_4Rjnc",
+    "id": "yt_7gx85nbKNiw",
     "title": "FOR REAL",
-    "artists": ["access"],
+    "artists": ["徳山秀典"],
     "tieUp": "幻想魔伝 最遊記 OP",
-    "youtubeUrl": "https://www.youtube.com/watch?v=2zqKm_4Rjnc",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7gx85nbKNiw",
     "registeredAt": "2016-03-25T22:37:26+09:00",
     "status": "want",
     "memo": ""
@@ -7347,6 +7347,46 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=JJaCwW4HyVs",
     "registeredAt": "2026-10-02T19:05:36+09:00",
     "status": "practicing",
+    "memo": ""
+  },
+  {
+    "id": "yt_jB6PAfKhbW8",
+    "title": "カサブタ",
+    "artists": ["千綿ヒデノリ"],
+    "tieUp": "金色のガッシュベル!! OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jB6PAfKhbW8",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "confident",
+    "memo": ""
+  },
+  {
+    "id": "yt_W_BL0XMcCXY",
+    "title": "Alteration",
+    "artists": ["ZAQ"],
+    "tieUp": "ささみさん@がんばらない OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=W_BL0XMcCXY",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_5tZZlKYczV0",
+    "title": "インモラリスト",
+    "artists": ["堀江由衣"],
+    "tieUp": "ドラゴンクライシス! OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5tZZlKYczV0",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "singable",
+    "memo": ""
+  },
+  {
+    "id": "yt_Lt1kWscoB70",
+    "title": "DOPAMINE",
+    "artists": ["m-flo", "EMYLI", "Diggy-MO'"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Lt1kWscoB70",
+    "registeredAt": "2013-01-01T00:00:00+09:00",
+    "status": "confident",
     "memo": ""
   }
 ]
