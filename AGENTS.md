@@ -49,7 +49,7 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
 | `tieUp` | string | ○ | アニメ・ドラマ・映画などの作品名。無い場合は空文字 `""` |
 | `youtubeUrl` | string | ○ | `https://www.youtube.com/watch?v=VIDEO_ID` 形式に統一 |
 | `registeredAt` | string | ○ | ISO 8601 / 日本時間(`+09:00`) |
-| `status` | string | ○ | `want` / `practicing` / `singable` / `confident` |
+| `status` | string | ○ | `interested` / `vague` / `prepared` / `singable` / `confident` |
 | `memo` | string | ○ | 自由記述。無い場合は空文字 `""` |
 
 キー変更(原曲キーからの上げ下げ)専用のフィールドは持たない。
@@ -61,14 +61,16 @@ GitHub Pages で `main` ブランチの `/docs` を公開している。
 `status` の意味:
 
 ```text
-want       = 歌いたい
-practicing = 練習中
+interested = 興味あり
+vague      = うろ覚え
+prepared   = 予習済み
 singable   = 歌える
 confident  = 自信あり
 ```
 
-習熟度の順は `want` → `practicing` → `singable` → `confident`。
-`singable` は「一通り歌える」、`confident` は「人前で自信を持って歌える」十八番の曲。
+習熟度の順は `interested` → `vague` → `prepared` → `singable` → `confident`。
+`vague` は「部分的にしか歌えない」、`prepared` は「通しで脳内再生できるが、カラオケで実際に歌ったことがない」、
+`singable` は「実際に歌って一通り歌えた」、`confident` は「人前で自信を持って歌える」十八番の曲。
 どちらか判断できない場合は `singable` にする。
 
 全フィールドを必ず含めること(`memo` が無い場合も `""` を入れる)。
@@ -156,7 +158,7 @@ YouTubeタイトル: DAOKO × 米津玄師『打上花火』MUSIC VIDEO
 
 ```text
 registeredAt = 現在の日本時間
-status       = "want"
+status       = "interested"
 memo         = ""
 tieUp        = 調べた作品名(無ければ "")
 ```
@@ -189,7 +191,8 @@ git diff
 「Lemonを歌えるにして」        → status = "singable"
 「Lemonを自信ありにして」      → status = "confident"
 「Lemonは十八番」              → status = "confident"
-「Lemonを練習中にして」        → status = "practicing"
+「Lemonを予習済みにして」      → status = "prepared"
+「Lemonをうろ覚えにして」      → status = "vague"
 「Lemonのキーを-2にして」      → memo に "-2" を反映(キー専用フィールドは無い)
 「Lemonに『ラスサビ怪しい』とメモして」 → memo = "ラスサビ怪しい"
 ```
@@ -219,7 +222,7 @@ npm run validate
 - `youtubeUrl` が canonical 形式
 - `id` が `yt_` + youtubeUrl の video ID と一致
 - `registeredAt` が ISO 8601(日本時間以外は警告)
-- `status` が `want` / `practicing` / `singable` / `confident`
+- `status` が `interested` / `vague` / `prepared` / `singable` / `confident`
 - `id` の重複なし / video ID の重複なし
 
 ## Git運用

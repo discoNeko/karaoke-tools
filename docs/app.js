@@ -1,8 +1,9 @@
 'use strict';
 
 const STATUS_LABEL = {
-  want: '歌いたい',
-  practicing: '練習中',
+  interested: '興味あり',
+  vague: 'うろ覚え',
+  prepared: '予習済み',
   singable: '歌える',
   confident: '自信あり',
 };

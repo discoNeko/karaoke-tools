@@ -8,8 +8,9 @@
   --accent: #a78bfa;
   --confident: #f472b6;
   --singable: #4ade80;
-  --practicing: #fbbf24;
-  --want: #60a5fa;
+  --prepared: #fbbf24;
+  --vague: #22d3ee;
+  --interested: #60a5fa;
   --youtube: #ff4d4f;
   --safe-left: env(safe-area-inset-left, 0px);
   --safe-right: env(safe-area-inset-right, 0px);
@@ -361,12 +362,16 @@ body {
   background: var(--singable);
 }
 
-.badge-practicing {
-  background: var(--practicing);
+.badge-prepared {
+  background: var(--prepared);
 }
 
-.badge-want {
-  background: var(--want);
+.badge-vague {
+  background: var(--vague);
+}
+
+.badge-interested {
+  background: var(--interested);
 }
 
 .yt-link {
