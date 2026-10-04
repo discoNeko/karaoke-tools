@@ -7438,5 +7438,15 @@
     "registeredAt": "2013-01-01T00:00:00+09:00",
     "status": "singable",
     "memo": ""
+  },
+  {
+    "id": "yt_2rhLKnWCo6Y",
+    "title": "AIYOU",
+    "artists": ["Eve"],
+    "tieUp": "薬屋のひとりごと ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2rhLKnWCo6Y",
+    "registeredAt": "2026-10-04T14:18:40+09:00",
+    "status": "interested",
+    "memo": ""
   }
 ]
