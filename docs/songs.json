@@ -566,7 +566,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=isZE_g2wMrc",
     "registeredAt": "2018-10-02T05:28:52+09:00",
-    "status": "want",
+    "status": "practicing",
     "memo": "カラオケ未収録"
   },
   {
@@ -7146,16 +7146,6 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=ClrWJkcefrk",
     "registeredAt": "2018-04-26T19:55:58+09:00",
-    "status": "want",
-    "memo": ""
-  },
-  {
-    "id": "yt_WdW4qz352U0",
-    "title": "月と狼",
-    "artists": ["魔王魂"],
-    "tieUp": "",
-    "youtubeUrl": "https://www.youtube.com/watch?v=WdW4qz352U0",
-    "registeredAt": "2019-01-10T04:58:13+09:00",
     "status": "want",
     "memo": ""
   },
