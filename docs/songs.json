@@ -7448,5 +7448,15 @@
     "registeredAt": "2026-10-04T14:18:40+09:00",
     "status": "interested",
     "memo": ""
+  },
+  {
+    "id": "yt_L13gCEZJVRU",
+    "title": "Henceforth",
+    "artists": ["Orangestar", "IA"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=L13gCEZJVRU",
+    "registeredAt": "2026-10-07T00:00:00+09:00",
+    "status": "vague",
+    "memo": ""
   }
 ]
