@@ -7458,5 +7458,15 @@
     "registeredAt": "2026-10-07T00:00:00+09:00",
     "status": "vague",
     "memo": ""
+  },
+  {
+    "id": "yt_WDeVDNg6lSE",
+    "title": "Petals",
+    "artists": ["Orangestar", "夏背"],
+    "tieUp": "春夏秋冬代行者 春の舞 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WDeVDNg6lSE",
+    "registeredAt": "2026-10-12T22:00:33+09:00",
+    "status": "vague",
+    "memo": ""
   }
 ]
