@@ -7468,5 +7468,15 @@
     "registeredAt": "2026-10-12T22:00:33+09:00",
     "status": "vague",
     "memo": ""
+  },
+  {
+    "id": "yt_dI1j38zsx98",
+    "title": "ミステリー",
+    "artists": ["MIMI", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dI1j38zsx98",
+    "registeredAt": "2026-10-28T23:47:20+09:00",
+    "status": "interested",
+    "memo": ""
   }
 ]
