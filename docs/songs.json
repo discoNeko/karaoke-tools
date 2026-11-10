@@ -7478,5 +7478,15 @@
     "registeredAt": "2026-10-28T23:47:20+09:00",
     "status": "interested",
     "memo": ""
+  },
+  {
+    "id": "yt_0YHJoexs5TU",
+    "title": "ミラーミラー",
+    "artists": ["TAK", "初音ミク", "重音テト"],
+    "tieUp": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0YHJoexs5TU",
+    "registeredAt": "2026-11-11T01:32:17+09:00",
+    "status": "interested",
+    "memo": ""
   }
 ]
