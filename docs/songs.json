@@ -757,7 +757,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=P6ZLs39MBlk",
     "registeredAt": "2025-05-17T12:21:07+09:00",
     "status": "singable",
-    "memo": "JoySound X1のみで配信"
+    "memo": "JoySound X1, DAMで配信"
   },
   {
     "id": "yt_4fndeDfaWCg",
@@ -4086,7 +4086,7 @@
     "tieUp": "幻想魔伝 最遊記 OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=7gx85nbKNiw",
     "registeredAt": "2016-03-25T22:37:26+09:00",
-    "status": "interested",
+    "status": "singable",
     "memo": ""
   },
   {
@@ -7456,7 +7456,7 @@
     "tieUp": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=L13gCEZJVRU",
     "registeredAt": "2026-10-07T00:00:00+09:00",
-    "status": "vague",
+    "status": "prepared",
     "memo": ""
   },
   {
@@ -7466,8 +7466,8 @@
     "tieUp": "春夏秋冬代行者 春の舞 OP",
     "youtubeUrl": "https://www.youtube.com/watch?v=WDeVDNg6lSE",
     "registeredAt": "2026-10-12T22:00:33+09:00",
-    "status": "vague",
-    "memo": ""
+    "status": "prepared",
+    "memo": "難しい"
   },
   {
     "id": "yt_dI1j38zsx98",
@@ -7487,6 +7487,46 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=0YHJoexs5TU",
     "registeredAt": "2026-11-11T01:32:17+09:00",
     "status": "interested",
+    "memo": ""
+  },
+  {
+    "id": "yt_UQuJvuTqimE",
+    "title": "RPG",
+    "artists": ["School Food Punishment"],
+    "tieUp": "[C] THE MONEY OF SOUL AND POSSIBILITY CONTROL ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UQuJvuTqimE",
+    "registeredAt": "2026-11-12T22:12:04+09:00",
+    "status": "prepared",
+    "memo": ""
+  },
+  {
+    "id": "yt_g0HKoH8agWY",
+    "title": "Silly-Go-Round",
+    "artists": ["FictionJunction YUUKA"],
+    "tieUp": ".hack//Roots OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=g0HKoH8agWY",
+    "registeredAt": "2026-11-12T22:13:08+09:00",
+    "status": "prepared",
+    "memo": ""
+  },
+  {
+    "id": "yt_BQtsNtsZWao",
+    "title": "やさしい両手",
+    "artists": ["三谷朋世"],
+    "tieUp": ".hack//G.U. Vol.1 再誕 ED",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BQtsNtsZWao",
+    "registeredAt": "2026-11-12T22:14:36+09:00",
+    "status": "prepared",
+    "memo": ""
+  },
+  {
+    "id": "yt_DOKM9QWJG3g",
+    "title": "abnormalize",
+    "artists": ["凛として時雨"],
+    "tieUp": "PSYCHO-PASS サイコパス OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DOKM9QWJG3g",
+    "registeredAt": "2026-11-12T22:16:42+09:00",
+    "status": "singable",
     "memo": ""
   }
 ]
