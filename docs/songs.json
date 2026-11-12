@@ -7528,5 +7528,15 @@
     "registeredAt": "2026-11-12T22:16:42+09:00",
     "status": "singable",
     "memo": ""
+  },
+  {
+    "id": "yt_emUa2-NMuo0",
+    "title": "STILL TIME",
+    "artists": ["徳山秀典"],
+    "tieUp": "幻想魔伝 最遊記 OP",
+    "youtubeUrl": "https://www.youtube.com/watch?v=emUa2-NMuo0",
+    "registeredAt": "2026-11-12T22:56:54+09:00",
+    "status": "prepared",
+    "memo": ""
   }
 ]
